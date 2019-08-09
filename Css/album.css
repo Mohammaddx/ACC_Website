@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cairo', sans-serif;
+}
+
+/* navbar style*/
+.navbar {
+    position: sticky;
+    width: 100%;
+    z-index: 99;
+}
+
+.bg-light {
+    background-color: #fff !important;
+    box-shadow: 1px 1px 10px 1px #aaa;
+}
+
+.nav-link {
+    font-family: 'Cairo', sans-serif;
+    font-size: 15px;
+    margin: 10px;
+    font-weight: bold;
+    color: #aaa;
+    
+}
+
+.nav-link:hover{
+    color: dodgerblue !important ;
+}
+
+.active .nav-link{
+    color: dodgerblue !important ;
+}
+
+/* album style*/
+
+.albums{
+    position: relative;
+    top: 70px;
+    padding: 20px;
+}
+
+.albums .album{
+    border: 1px solid #aaa;
+    text-align: center;
+    padding-bottom: 20px;
+    margin: 15px;
+}
+
+.albums .album img{
+    margin-bottom: 10px;
+    transition-duration: .3s;
+    transition: transform .5s ease;
+}
+
+.albums .album button{
+    background-color: darkmagenta;
+    color: #fff;
+    border: 1px solid darkmagenta;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin: 10px;
+    width: 150px;
+    box-shadow: 1px 0px 10px 0px #aaa;
+    cursor: pointer;
+}
+
+footer{
+    position: relative;
+    top: 150px;
+    background-color: #eee;
+    padding: 1px;
+}
+
+footer img{
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+}
+
+footer p {
+    text-align: center;
+    margin: 15px;
+
+}

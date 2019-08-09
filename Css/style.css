@@ -1,0 +1,161 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cairo', sans-serif;
+}
+
+/* navbar style*/
+.navbar {
+    position: sticky;
+    width: 100%;
+    z-index: 99;
+}
+
+.bg-light {
+    background-color: #fff !important;
+    box-shadow: 1px 1px 10px 1px #aaa;
+}
+
+.nav-link {
+    font-family: 'Cairo', sans-serif;
+    font-size: 15px;
+    margin: 10px;
+    font-weight: bold;
+    color: #aaa;
+    
+}
+
+.nav-link:hover{
+    color: dodgerblue !important ;
+}
+
+.active .nav-link{
+    color: dodgerblue !important ;
+}
+/* Slider style*/
+.Slider_show{
+    height: 400px;
+    
+    background-image: linear-gradient(rgba(0, 0, 0 , 0.4) , rgba(0,0,0,0.4)) , url("/Image/slide1.jpg");
+}
+
+.Slider_show p {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Last News Style*/
+.Last_news{
+    position: relative;
+    top: 70px;
+    padding: 50px;
+}
+
+.Last_news .title{
+    text-align: right; 
+    margin-bottom: 50px;  
+    font-weight: bold;
+}
+
+.Last_news .container{
+    padding: 15px;
+}
+
+.Last_news .container .news{
+    box-shadow: 1px 1px 10px 1px #aaa;
+    padding: 10px;
+    max-height: 500px;
+    margin: 10px;
+}
+
+.Last_news .container .news img{
+    width: 100%;
+    max-height: 180px;
+
+}
+
+.Last_news .container .news h3{
+    text-align: center;
+    margin: 7px;
+}
+
+.Last_news .container .news p{
+    text-align: right;
+    max-height: 100px;
+}
+
+.Last_news .container .news button{
+    display: block;
+    margin: auto;
+    background-color: #fff;
+    border: 2px solid dodgerblue;
+    color: dodgerblue;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+/*Members style*/
+.Members {
+    position: relative;
+    top: 70px;
+    padding: 50px;
+}
+
+.Members h1 {
+    text-align: right; 
+    margin-bottom: 50px;  
+    font-weight: bold;
+}
+
+.Members .container{
+    padding: 15px;
+}
+
+.Members .container .member {
+margin: 20px;
+ 
+}
+
+.Members .container .member img{
+    width: 150px;
+    max-height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    border: 2px solid dodgerblue;
+    padding: 10px;
+}
+
+.Members .container .member h6{
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #aaa;
+}
+
+footer{
+    position: relative;
+    top: 150px;
+    background-color: #eee;
+    padding: 1px;
+}
+
+footer img{
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+}
+
+footer p {
+    text-align: center;
+    margin: 15px;
+
+}

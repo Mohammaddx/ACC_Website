@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cairo', sans-serif;
+}
+
+/* navbar style*/
+.navbar {
+    position: sticky;
+    width: 100%;
+    z-index: 99;
+}
+
+.bg-light {
+    background-color: #fff !important;
+    box-shadow: 1px 1px 10px 1px #aaa;
+}
+
+.nav-link {
+    font-family: 'Cairo', sans-serif;
+    font-size: 15px;
+    margin: 10px;
+    font-weight: bold;
+    color: #aaa;
+    
+}
+
+.nav-link:hover{
+    color: dodgerblue !important ;
+}
+
+.active .nav-link{
+    color: dodgerblue !important ;
+}
+
+.lecturer{
+    position: relative;
+    top: 70px;
+    padding:25px;
+}
+
+.lecturer .dr{
+    text-align: center;
+    box-shadow: 1px 1px 10px 1px #aaa;
+    padding-bottom: 20px;
+    margin: 15px;
+}
+
+.lecturer .dr img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -100px; 
+    box-shadow: 1px 0px 10px -1px rgba(0,0,0,0.5); 
+}
+
+.lecturer .dr *{
+    display: block;
+    margin: 7px;
+}
+
+.lecturer .dr .shape{
+    height: 200px;
+    background-image: linear-gradient(45deg , rgba(30, 144, 255 , 0.5) 0%, rgba(0, 255, 255 , 0.5) 100%) , url("https://media.giphy.com/media/3oEdv2jhcfX4JgaXao/giphy.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.lecturer .dr .info span{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.lecturer .dr .info .social *{
+    display: inline;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    font-size: 25px;
+    color: #aaa;;
+}
+
+.lecturer .dr .info button{
+    background-color: dodgerblue;
+    color: #fff;
+    font-weight: bold;
+    border-radius:20px;
+    border: 1px solid dodgerblue;
+    box-shadow: -1px 0px 10px 1px #aaa;
+    padding: 5px 50px;
+    margin: auto;  
+    cursor: pointer;
+}
+
+footer{
+    position: relative;
+    top: 150px;
+    background-color: #eee;
+    padding: 1px;
+}
+
+footer img{
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+}
+
+footer p {
+    text-align: center;
+    margin: 15px;
+
+}
+

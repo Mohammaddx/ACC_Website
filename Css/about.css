@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cairo', sans-serif;
+}
+
+/* navbar style*/
+.navbar {
+    position: sticky;
+    width: 100%;
+    z-index: 99;
+}
+
+.bg-light {
+    background-color: #fff !important;
+    box-shadow: 1px 1px 10px 1px #aaa;
+}
+
+.nav-link {
+    font-family: 'Cairo', sans-serif;
+    font-size: 15px;
+    margin: 10px;
+    font-weight: bold;
+    color: #aaa;
+    
+}
+
+.nav-link:hover{
+    color: dodgerblue !important ;
+}
+
+.active .nav-link{
+    color: dodgerblue !important ;
+}
+
+/*About section style*/
+.Info-about{
+    position: relative;
+    top: 60px;
+    text-align: right;
+}
+
+.Info-about .container{
+    padding: 15px;
+}
+
+.Info-about .container .col-md-6{
+    padding: 15px;
+}
+
+.Info-about p{
+    font-size: 20px;
+    font-weight: bold;
+    color: slategray;
+    padding: 40px;
+}
+
+.Info-about button{
+    background-color: #fff;
+    color: dodgerblue;
+    border: 1px solid dodgerblue;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin-right: 40px;
+    cursor: pointer;
+    transition-duration: .3s;
+}
+
+.Info-about button:hover{
+    background-color: dodgerblue;
+    color: #fff;
+}
+    
+footer{
+    position: relative;
+    top: 150px;
+    background-color: #eee;
+    padding: 1px;
+}
+
+footer img{
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+}
+
+footer p {
+    text-align: center;
+    margin: 15px;
+
+}
